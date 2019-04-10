@@ -1,0 +1,13 @@
+This is a slightly modified version of the Puflantu repository we used while developing the language that we've made public now that the hunt is over, so that those interested in the language can learn more about how it works.
+
+**** Vocabulary
+
+The root vocabulary for the language is found separated into word classes in root_adverbs.tsv, root_closed.tsv, root_nouns.tsv, and root_verbs.tsv. Note that there is no adjectives list because nouns and adjectives come from the same roots in Puflantu.
+
+**** Additional Grammar Notes
+
+Additional documentation on how the language works is provided [[file:doc/main.org][here]].
+
+**** Artifact Translations
+
+The artifacts folder contains the original English scripts, Puflantu [[https://en.wikipedia.org/wiki/Interlinear_gloss][gloss]], and Puflantu translations for all of the artifacts.

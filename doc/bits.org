@@ -1,0 +1,144 @@
+* Questions (STUB)
+
+A sentence-final ~na~ marks questions. This is sufficient to make a sentence
+interrogative; no further word order changes are required.
+
+#+BEGIN_EXAMPLE
+Os wlizoc  na.
+eat-2S-PRF ?
+Have you eaten?
+
+Zo,  os wlwmoc.
+yes  eat-1S-PRF.
+Yes, I have eaten.
+#+END_EXAMPLE
+
+The interrogative personal pronoun is the corresponding third person pronoun
+prefixed by ~w-~. (~wat/wot~, ~wab/wob~, ~wad/wod~) This pronoun works for "who",
+"what", and "which". The genitive forms are ~rwato~, ~rwabo~, and ~rwado~ -- recall
+that the pronoun infixed into ~r*o~ indicates the number of possessors but always
+takes the subjective case.
+
+#+BEGIN_EXAMPLE
+Wad     et   qekadumad    na.
+Who-PL  FUT  meet-3pS-1O  ?
+Who will meet me?
+
+Wod      et   qekwmodad    na.
+Whom-PL  FUT  meet-1S-3pO  ?
+Whom will I meet?
+
+Rwato    daxafe     zat    na.
+Who-GEN  teach-AGT  be-3S  ?
+Whose teacher is she? -- Depending on context, might also be "Which (subject's) teacher"
+#+END_EXAMPLE
+
+Additional interrogatives are shown in the table in the previous section. In the
+same way that questions don't take on a different word order than declarative
+sentences, those interrogatives still take a "normal" word order, e.g. =wbwr=
+"when" takes the same position that a time-marking adverb would take in a
+declarative sentence.
+
+#+BEGIN_EXAMPLE
+Janu  wbwr  et qekatuyad     na.
+Jon   when  meet-3S-1pO-FUT  ?
+When will Jon meet us?
+
+Janu  tiroqas    et qekatuyad.
+Jon   today-ADV  meet-3S-1pO-FUT.
+Jon will meet us today.
+#+END_EXAMPLE
+
+* Numbers (STUB)
+
+Perflontus uses a base 6 system. The numbers 0-6 are ~ri~, =uta=, =fe=, =pai=, =avu=, =ne=,
+and =saqe=.
+
+Multiples of 6 up through 30 are formed by picking the correct multiplier and
+suffixing =saqe=: =saqe=, =fesaqe=, =paisaqe=, =avsaqe=, =nesaqe=. Note the omission of the
+middle =u= from =avsaqe=. Adding units digits is done by replacing the =e= in =saqe=
+with the units digit, omitting the first =u= from =uta= as a special case. Thus the
+multiples of 7 through 35 are =saqta=, =fesaqfe=, =paisaqpai=, =avsaqavu=, and =nesaqne=.
+
+The next powers of 6 up through 6^5 are ~yo~, ~sa~, ~toe~, and ~wdo~. To count multiples
+of these, prefix the entirety of the corresponding hexit, e.g. ~utayo~, ~feyo~,
+~paiyo~, ~avuyo~, ~neyo~. Note that unlike ~aqe~, in all these cases the presence of a 1
+hexit is explicit: ~utayo~, ~utasa~, ~utatoe~, ~utawdo~. Additional hexits are added as
+separate words, e.g. 1023 = 4423_6 = ~avusa avuyo fesaqpai~.
+
+Powers of 6 above 6^5 are formed by naming the exponent, then replacing the
+final vowel with ~wdo~: 6 = ~saqe~ \rightarrow 6^6 = ~saqwdo~, 7 = ~saqta~ \rightarrow
+6^7 = ~saqtwdo~, etc. These are still "unit" power-of-6 words, and to express an
+actual quantity still require the explicity 1 hexit: ~keaqwdo~, ~keaqkwdo~,
+~keaqhawdo~, etc. The removal of the final =u= is not done here, e.g. 4 \times 6^7 =
+~avusaqtwdo~.
+
+Exact numbers do not take any additional inflection. For example "three dances"
+is ~pai hinalwla~, not ~*pwpai hinalwla~. When measures of things are used -- for
+example, "5 cups of water" -- the things being measured are taken as an
+adjective for the number and the unit of measure. In this case we would
+translate "water 5 cups", or =enxa lo janwe=. Note that not only is the noun class
+applied to the unit of measure, it is also not applied to the thing being
+measured, since it is not the head of its noun phrase (it is treated as an
+adjective).
+
+Inexact numbers are treated as units of measure unto themselves, e.g. "dozens of
+dances" \rightarrow =hinala fesaqwe= "dance dozens".
+
+Things happening a number of times is given by the adverb form of a number, e.g.
+~fes cwmub~ "I speak twice". Ordinal numbers are formed by the suffix =-ru=, e.g.
+second = ~feru.~ This is subject to adverbialization by an added =-s=, e.g. ~ferus im
+capatil~ "He arrived second".
+
+* Conjunctions (STUB)
+
+Conjunctions in Perflontus are particles added to the end of each element they
+link, save for the last.
+
+#+BEGIN_EXAMPLE
+Setu  ha  wibalw  -li  twipe  -li  oku    solatodov.
+Seth  2   egg-DU  -&   sugar  -&   flour  need-3S-3pO
+Seth needs two eggs, sugar, and flour.
+#+END_EXAMPLE
+
+Much like adjectives take =-s= to become adverbial when modifying verbs,
+conjunctions take =-s= when linking lists of verbs or clauses.
+
+#+BEGIN_EXAMPLE
+Ogwris        wlwmoc  -lis    zumwmuz.
+frequent-ADV  eat-1S  -&-ADV  sleep-1S
+I eat and sleep a lot.
+#+END_EXAMPLE
+
+The full list of coordinating conjunctions is as follows:
+
+| -li(s) | and                        | Pamono-li colbao zat.        | It is red and green.              |
+| -di(s) | but, yet (contrastive and) | Ogis lifwman-dis uyis ywmel. | I study a lot but learn little.   |
+| -ni(s) | then (sequential and)      | Bastonu-ni Yw Iorka twyex.   | We went to Boston, then New York. |
+| -fo(s) | exclusive or               | At-fo wm cwnub.              | Either he or I will speak.        |
+| -vo(s) | inclusive or               | Paliso-vo twipe orcizal na.  | Do you want milk and/or sugar?    |
+
+Note that the inflection of the verb, where appropriate, is based on the
+combination of all list elements for both "and" and "or". (This is in contrast
+to English, where the inflection of the verb matches the /last/ list element in
+the "or" case.) As an example, the exclusive-or sentence above uses the
+first person dual =c[wn]ub= instead of the first person singular =c[wm]ub=.
+
+  * -xa(s) :: for, because
+  * -ja(s) :: so, therefore
+
+(A bunch of these only make sense when attaching clauses, and in those cases
+we'd rather so some kind of ~al* ... -ka(s)~ construction. Come back to this
+later.)
+
+Section on comparatives should incorporate the conjunctions for "...as X as Y"
+and "...more/less X than Y".
+
+* Adpositions
+
+ * -uxo
+ * -uqo
+
+* Adverbs
+
+Adverbs are formed by suffixing ~s~. This also applies to particles.

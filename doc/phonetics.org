@@ -1,0 +1,67 @@
+#+TITLE: The Sounds of Perflontus
+
+Perflontus consists of 27 phonemes, which are mapped onto the English alphabet
+plus apostrophe ='=. Roughly speaking, most of the vowels behave like you'd expect
+from Spanish or Japanese, and most of the consonants behave like you'd expect
+from English or romanized Mandarin. The exceptions, briefly, are:
+
+  * ~w~ is the "oo" sound; ~u~ is "uh".
+  * ~g~ and ~y~ should be pronounced as though there's an "n" preceding them.
+  * ~c~ is "zh".
+  * ~'~ is the sound of a bell.
+
+The table below gives an exact breakdown.
+
+| Letter | Phoneme | Notes                                                              |
+|--------+---------+--------------------------------------------------------------------|
+| a      | <a>     | "a" in "car"                                                       |
+| b      | <b>     |                                                                    |
+| c      | <ʒ>     | "s" in "leisure", "g" in "concierge", back half of "x" in "luxury" |
+| d      | <d>     |                                                                    |
+| e      | <e>     | "ay" in "may"                                                      |
+| f      | <ɸ>     | as English but don't use your teeth                                |
+| g      | <ŋ>     | "ng" in "wingman", "n" in "ingot"                                  |
+| h      | <x>     | as English but put some grit into it                               |
+| i      | <i>     | "ee" in "feet"                                                     |
+| j      | <dʒ>    |                                                                    |
+| k      | <k>     |                                                                    |
+| l      | <l>     |                                                                    |
+| m      | <m>     |                                                                    |
+| n      | <n>     |                                                                    |
+| o      | <o>     | "oa" in "goat"                                                     |
+| p      | <p>     |                                                                    |
+| q      | <tʃ>    | "ch" in "chair"                                                    |
+| r      | <ɹ̠>     | as English r (not tapped or trilled)                               |
+| s      | <s>     |                                                                    |
+| t      | <t>     |                                                                    |
+| u      | <ə>     | "i" in "pencil", "e" in "camera"                                   |
+| v      | <β>     | as English but don't use your teeth                                |
+| w      | <u>     | "oo" as in "boot"                                                  |
+| x      | <ʃ>     | "sh" as in "share"                                                 |
+| y      | <ɲ>     | "ni" as in "onion"; Spanish "ñ" or Italian "gn"                    |
+| z      | <z>     |                                                                    |
+| '      |         | Literally a bell                                                   |
+
+*** Syllabification
+
+Syllables in Perflontus always contain exactly one vowel, which may be preceded
+by at most one consonant, and followed by at most one consonant. This means that
+an English speaker must take care to pronounce vowel and consonant clusters as
+though they contain a syllable break, even if the cluster would represent a
+valid English diphthong. For example ~wfro~ should be pronounced as ~OOF-roh~ and
+not ~OO-froh~; and ~riqwe~ as ~REE-choo-ay~ and not ~REACH-way~ or ~REE-chway~. When in
+doubt a consonant belongs to the same syllable as the vowel following it, e.g.
+~i-qa~ not ~iq-a~.
+
+Stress occurs on the syllable preceding a word's final consonant, not counting
+any particles. Thus for verbs the stress will fall on the final syllable; for
+nouns, usually on the penultimate or antepenultimate. (If there is no such
+syllable, the first syllable is stressed).
+
+#+BEGIN_EXAMPLE
+A- la- nu   Puf- lan- tu   ca-  tub.
+ah-LAH-nuh  puff-LAHN-tuh  zhah-TUB.
+
+Bu- nu   pa- i   to- re- lw- a   im   w- la- toc.
+BUH-nuh  PAH-ee  toh-RAY-loo-ah  EEM  oo-lah-TOZH.
+#+END_EXAMPLE

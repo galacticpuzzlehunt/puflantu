@@ -1,0 +1,283 @@
+*** Number and Negation
+
+  Perflontic nouns always have at least two syllables (which is to say, vowels)
+  and always end in a vowel other than ~w~. In their noun form, they don't take any
+  interesting inflections other than for number. When a noun is given the dual
+  number its final vowel is replaced by ~w~. For the plural number, it is replaced
+  by ~we~. Zero is considered to be part of the plural number.
+
+  #+BEGIN_EXAMPLE
+  Furedu  toreli  wlatoc.
+  Fred    cookie  eat-3S.
+  Fred eats (a) cookie.
+
+  Ha   torelw     wlatoc.
+  Two  cookie-DU  eat-3S.
+  He eats two cookies.
+
+  Hasa   pagke  torelwe    wlatoc.
+  2*216  25     cookie-PL  eat-3S.
+  He eats 461 cookies.
+  #+END_EXAMPLE
+
+  Nouns also function as adjectives with no additional inflection. Some root forms
+  are translated as one part of speech or the other in English, but the parts of
+  speech in Perflontus should be understood as interchangeable as appropriate.
+
+  Adjectives take on the numeric inflection of the nouns they modify. In addition,
+  adjectives may be negated by infixing ~-ay-~ before their final vowel.
+
+  #+BEGIN_EXAMPLE
+  Jekobu  colbao  toreli  wlatoc.
+  Jakob   green   cookie  eat-3S.
+  Jakob eats (a) green cookie.
+
+  Jekobu  ha   colbaw    torelw     wlatoc.
+  Jakob   two  green-DU  cookie-DU  eat-3S.
+  Jakob eats two green cookies.
+
+  Jekobu  colba[ay]we   torelwe    wlateyoc.
+  Jakob   green-NEG-PL  cookie-DU  eat-3S-NEG.
+  Jakob does not eat non-green cookies.
+  #+END_EXAMPLE
+
+  Note that numbers (like ~ha~ "two" in the second example) are an exception to
+  this. They do not generally take on the same inflections as the objects they
+  count (including inflection due to negation or noun class), but might still be
+  pluralized in cases where they are used as estimation units (e.g. ~yo torelwe~ "36
+  cookies" vs ~ywe torelwe~ "36s of cookies").
+
+*** Verb-Derived Nouns and Adjectives
+
+Verbs may be suffixed to form nouns. These suffixes are applied to the root form
+of the verb, including ~az~. They are compatible with all the affixes described
+previously, except for the pronoun infixes. The resulting noun/adjective is
+considered a root form unto itself, so that inflections like ~-ay-~ that target
+the final vowel of the word apply to the final vowel of the verb+suffix, not the
+final vowel of the root verb.
+
+#+BEGIN_EXAMPLE
+| Suffix type      | Noun sense                  | Adjective sense         | Suffix | Example              |
+|------------------+-----------------------------+-------------------------+--------+----------------------|
+| Gerund (GER)     | The act of X-ing            | In the process of X-ing | -a     | daxa "teaching"      |
+| Agent (AGT)      | A thing that X's            | Capable of X-ing        | -afe   | daxafe "teacher"     |
+| Patient (PAT)    | A thing that is X'd         | X-able                  | -who   | daxwho "student"     |
+| Instrument (INS) | A thing that enables X-ing  | X-assisting, for X-ing  | -aqo   | daxaqo "educational" |
+| Location (LOC)   | A place where X-ing happens | X-hosting               | -ice   | daxice               |
+| Cause (CAU)      | A thing that causes X-ing   | X-causing               | -ede   | daxede               |
+| Result (RES)     | A thing that results from X | X-produced              | -oda   | daxoda               |
+#+END_EXAMPLE
+
+It should be noted that the use of these suffixes should be taken very
+literally, which is one of the reasons that many suffixes will not have a clean
+gloss into English. For example, it may be tempting to gloss ~daxice~
+"teach-location" as "school" but you could just as easily interpret that as
+"classroom". The best you can really do is just substitute "teaching-place"
+where it appears to avoid carrying in any unmerited assumptions. Thus to specify
+"school" you might have to say ~daxice veonxi~ "teaching-place building" as
+opposed to ~daxice jiso~ "teaching-place room". Of course, Perflontus should
+ultimately have root words for "school" and "classroom" directly.
+
+***** Gerund Case ~-a~
+
+The gerund case of a verb is a derived noun meaning that verb's action. Some
+uses of the infinitive in various languages also perform this role; in
+Perflontus the two both use the gerund case.
+
+#+BEGIN_EXAMPLE
+Zumuz[a]   Qarluz   somatun.
+sleep-GER  Charles  please-3S.
+Sleeping/to sleep pleases Charles. (Charles likes sleeping/to sleep.)
+#+END_EXAMPLE
+
+When used as an adjective this case always functions as a present participle,
+and only with the connotation of a thing that is performing the action in
+question. In particular, when describing something that is used /for/ an action
+rather than something that is performing the action itself, use the [[Instrumental Case ~-aqo~][instrumental
+case]].
+
+#+BEGIN_EXAMPLE
+Qarluz   eqa   zumuza     hie    zat.
+Charles  that  sleep-GER  human  be-3S.
+Charles is the sleeping person.
+
+*Zumuza     kworu    kworatem.  -- Incorrect, the clothes are *for* sleeping
+*sleep-GER  clothes  wear-3S
+He wears clothes that are sleeping.  -- unless the clothes are alive???
+
+Zumuzaqo   kworu    kworatem.
+sleep-INS  clothes  wear-3S
+He wears clothes that are for sleeping.
+#+END_EXAMPLE
+
+Also, be careful with present participial form of intransitive verbs. For
+example, in English, "boiling water" refers to water that is boiling, not water
+that is boiling something else. As noted in [[Verbs, Part 1 -- Basic Infixes][Basic Infixes]], a "passive voice"
+style of inflection is required here. A full treatment of other participial
+forms is covered in [[Dependent Clauses (STUB)][Dependent Clauses]].
+
+The resulting word acts as a root form; in particular, additional
+transformations that would be applied to a noun apply to the suffixed verb as a
+whole. It is still possible to apply some affixes to the verbal root before the
+suffix, which may create subtly different meanings.
+
+#+BEGIN_EXAMPLE
+Qarluz   eqa   zumuzaya       hie    zat.
+Charles  that  sleep-GER-NEG  human  be-3P.
+Charles is the person who is not sleeping.
+
+Qarluz   eqa   zumeyuza       hie    zat.
+Charles  that  sleep-NEG-GER  human  be-3P.
+Charles is the person who is (not-sleep)ing.  -- connotations of forced wakefulness, perhaps
+#+END_EXAMPLE
+
+***** Agent Case ~-afe~ and Patient Case ~-who~
+
+The agent case of a verb is a derived noun referring to an entity that is taking
+the action or is capable of taking the action. In English this functions much
+like the "-er" suffix for verbs.
+
+In the adjective form the derived word strictly denotes capability. To refer to
+an entity that is currently taking the action, use the Gerund case instead.
+
+#+BEGIN_EXAMPLE
+Maksu  hinalafe   zat.
+Max    dance-AGT  be-3P.
+Max is a dancer / Max is dance-capable.  -- context required to disambiguate
+
+Maksu  hinalafe   hie    zat.
+Max    dance-AGT  human  be-3P.
+Max is a dance-capable person.  -- example of grammatical disambiguation
+
+Maksu  hinalafaye     zatey.
+Max    dance-AGT-NEG  be-3P-NEG.
+Max is not a dancer / Max is not dance-capable.
+#+END_EXAMPLE
+
+Conversely the patient case refers to something that is the target of the
+suffixed action, or capable of being such. In English the "-ee" suffix might be
+used in the noun form. For the adjective form reasonable translations are
+"X-able" or "for X-ing" (as an object). ("For X-ing" as a subject falls under
+the instrumental case.)
+
+#+BEGIN_EXAMPLE
+Eqwe     torelwe    wlocwho  zad.
+That-PL  cookie-PL  eat-PAT  be-3pS.
+Those cookies are for eating / edible / to be eaten.
+
+Equra   enxura   riqwhurayo       zatey.
+That-R  water-R  drink-PAT-NEG-R  be-3S-NEG.
+That water is not for drinking.
+#+END_EXAMPLE
+
+***** Instrumental Case ~-aqo~
+
+The instrumental case of a verb refers to something that is used for the action
+in question. This is slightly different from something that /causes/ the action in
+question.
+
+#+BEGIN_EXAMPLE
+Burainu  daxaqo     kude  gaten.
+Brian    teach-INS  book  read-3S.
+Brian reads a textbook.
+
+Burainu  sinqeraqo     kude  gaten.
+Brian    describe-INS  book  read-3S.
+Brian reads a manual.
+
+Burainu  uqilwe  yelaqwe  moratuh.
+Brian    several-PL  learn-INS  own-3S.
+Brian has several things used for learning.
+#+END_EXAMPLE
+
+Note that this is more a descriptive term than anything else and should not be
+used to generate specific words, primarily because many different things can be
+instrumental for an action. For example a spoon can be ~wlocaqo~ "eat-instrument",
+but so can a fork, a bowl, or a person's mouth. So it would be inappropriate to
+use ~wlocaqo~ as a word that means specifically "spoon", unless there's other
+nearby context that disambiguates it.
+
+***** Locative Case ~-ice~ (STUB)
+***** Causative Case ~-ede~ (STUB)
+***** Resultative Case =-oda= (STUB)
+
+*** Possessives
+
+For nouns, the possessive case is marked simply by suffixing =-ro=. This
+possessive form works as both a noun and an adjective.
+
+#+BEGIN_EXAMPLE
+Alanu-ro  kude  pamono  zat.
+Alan-GEN  book  red     be-3S.
+Alan's book is red.
+
+Robu-ro  honwze  zat.
+Rob-GEN  blue    be-3S.
+Rob's is blue.
+#+END_EXAMPLE
+
+Note that there are two potential points for numeric inflection here: The root
+noun is inflected to indicate the number of possessors, while the =-ro= suffix may
+be inflected to indicate the number of possessed objects.
+
+#+BEGIN_EXAMPLE
+Justiinu-rwe    kudwe    colbawe   zad.
+Justine-GEN-PL  book-PL  green-PL  be-3pS.
+Justine's books are green.
+
+Yelafwe-ro        kude  wre    zat.
+Learn-AGT-PL-GEN  book  black  be-3S.
+The students' book is black.
+
+Yelafwe-rwe          kworwe       apwe      zad.
+Learn-AGT-PL-GEN-PL  clothing-PL  white-PL  be-3pS
+The students' clothes are white.
+#+END_EXAMPLE
+
+Possessive pronouns are formed by infixing the /subject/ form of the pronoun into
+=r*o=. This applies to all personal pronouns, their interrogative forms (=wat= et
+al, described in more detail later), and to =ita= "this" and =iqa= "that". As with
+regular nouns, it is important to pay attention to the difference in inflection
+for the number of possessors vs the number of possessed things.
+
+#+BEGIN_EXAMPLE
+Itwe     torelwe    rwmwe     zad.
+this-PL  cookie-PL  1-GEN-PL  be-3pS.
+These cookies are mine.
+
+Iqa   toreli  rixe    zat.
+that  cookie  2p-GEN  be-3S.
+That cookie is y'all's.
+
+Rwatwe      zad    na.
+Who-GEN-PL  be-3S  ?
+Whose are those?
+#+END_EXAMPLE
+
+*** Noun Classes
+
+*State:* Stub
+
+Some nouns have classes which apply an additional mutation to the word. If this
+occurs, all non-numeric adjectives for that noun take the mutation as well. This
+mutation happens before polarity, numeric, and comparative inflection. It
+applies across the copula but only when the object complement is an adjective.
+
+  * Bodily actions (W) :: Replace the final consonant cluster ~(C+)~ with ~\1w\1~.
+  * Light sources (T) :: If the first vowel is ~(V)~, prefix ~\1t~.
+  * Fluids (R) :: If the first two vowels are ~(V)(V)~, replace with ~\1r\2~. If the
+                  first two vowels are ~(VC+)(V)~, replace with ~\1ur\2~.
+
+*** Comparatives and Superlatives
+
+*State:* Stub
+
+Comparatives are formed by suffixing ~'fi~ . This happens after negation but before
+numeric inflection. The corresponding dual and plural forms are ~'fw~ and ~'fwe~.
+
+Some types of adjectives do not permit standard comparative formation. Instead,
+these take on ~ogi'fi~ as adverbial modifiers, in the same way "more" is used
+instead of "-er" in English, e.g. "bigger" vs "more gigantic".
+
+Superlatives are formed by suffixing ~'~ , ~'w~, or ~-'we~ respectively. Adjectives
+that use ~ogi'fi~ instead of ~-'fi~ also take ~ogi'~ instead of ~-'~.

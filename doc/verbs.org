@@ -1,0 +1,195 @@
+*** Basic Inflections
+
+Verbs have a root form which is inflected in various ways. In particular, the
+root form of a verb is not a valid word unto itself. The most common way a verb
+is inflected is to indicate its subject, object, and negation. This is done
+through the use of infixes. The point at which a verb accepts infixes is always
+immediately before its final vowel. To help in remembering this, the root form a
+verb is always written with an asterisk indicating this position.
+
+#+BEGIN_EXAMPLE
+wl*oc    "to eat"
+wlwmoc   eat-1S "I eat"
+wlizoc   eat-2S "you eat"
+#+END_EXAMPLE
+
+Each verb accepts up to three infixes, in the following order:
+
+  * A subject pronoun, as described above. This is always present in the active
+    voice, even if the subject is explicitly named elsewhere in the sentence.
+    (It may be absent in cases where the verb form is used to derive a noun, or
+    when using the passive voice.)
+
+#+BEGIN_EXAMPLE
+```
+Andursun  ke   toreli  wl[at]oc.
+Anderson  one  cookie  eat-3S.
+Anderson eats a cookie.
+
+Ke   toreli  wl[at]oc.
+One  cookie  eat-3S.
+He eats a cookie.
+
+Andursun ke toreli *wloc. -- Incorrect, [at] infix must still be provided.
+```
+#+END_EXAMPLE
+
+  * A negation infix ~ey~. This indicates the negation/lack of the action, /not/ a
+    reversal of the action. The corresponding distinction can be seen in English
+    where "to not do" something is distinct from "to undo" it; this is the
+    former.
+
+#+BEGIN_EXAMPLE
+```
+Canik    kofuri  ratiq.
+Yannick  coffee  drink-3S.
+Yannick drinks coffee.
+
+Canik    enxura  rat[ey]iq.
+Yannick  water   drink-3S-NEG.
+Yannick does not drink water.
+```
+#+END_EXAMPLE
+
+  * An object pronoun, as described above. This is present to the degree that
+    it needs to be for disambiguation:
+
+#+BEGIN_EXAMPLE
+```
+Dani   qek[wm]ad.
+Danny  meet-1S.
+I meet Danny.
+
+Qek[wm][ot]ad.
+Meet-1S-3O.
+I meet him.
+
+Dani   qek[wm][ot]ad. -- Valid with redundant 3O infix; may indicate emphasis.
+Danny  meet-1S-3O.
+I meet *Danny*.
+```
+#+END_EXAMPLE
+
+    * It is also present /without the subject pronoun/ when using the passive voice:
+
+#+BEGIN_EXAMPLE
+```
+Torelwe    wlodoc.
+Cookie-PL  eat-3pO
+Cookies were eaten.
+```
+#+END_EXAMPLE
+
+      Note that many English words also overlap their transitive and
+      intransitive forms -- for example, compare "I boil the water" and "The
+      water boils". In Perflontus, when using the intransitive form of the verb,
+      the phrasing is identical to using the passive voice with the transitive
+      verb; the latter example can be thought of as "The water is boiled".
+
+#+BEGIN_EXAMPLE
+```
+Enxura   lirwmwb.
+water-R  boil-1S
+I boil the water.
+
+Enxura   lirotwb.
+water-R  boil-3O
+The water boils / The water is boiled.
+```
+#+END_EXAMPLE
+
+*** Tense, Aspect, and Mood
+
+Perflontus expresses two non-present tenses, past and future; two aspects,
+imperfect and perfect; and two irrealis moods, the hypothetical and the
+counterfactual. (Briefly, the imperfect aspect indicates that the verb action is
+ongoing or otherwise incomplete; the perfect aspect indicates that the verb
+action has concluded.) These expressions appear as proclitics, i.e. prefix
+particles.
+
+#+BEGIN_EXAMPLE
+| Present              | --  | Elaiza zumatuz.       | Eliza sleeps.                        |
+| Past (PST)           | im  | Elaiza im zumatuz.    | Eliza slept.                         |
+| Future (FUT)         | et  | Elaiza et zumatuz.    | Eliza will sleep.                    |
+|----------------------+-----+-----------------------+--------------------------------------|
+| Imperfect (IMP)      | av  | Elaiza av zumatuz.    | Eliza is sleeping.                   |
+|                      |     | Elaiza imav zumatuz.  | Eliza was sleeping.                  |
+|                      |     | Elaiza etav zumatuz.  | Eliza will be sleeping.              |
+|----------------------+-----+-----------------------+--------------------------------------|
+| Perfect (PRF)        | os  | Elaiza os zumatuz.    | Eliza has slept.                     |
+|                      |     | Elaiza imos zumatuz.  | Eliza had slept.                     |
+|                      |     | Elaiza etos zumatuz.  | Eliza will have slept.               |
+|----------------------+-----+-----------------------+--------------------------------------|
+| Hypothetical (HYP)   | fel | Elaiza fel zumatuz.   | Eliza might sleep.                   |
+|                      |     | Elaiza avfel zumatuz. | Eliza might be sleeping.             |
+|                      |     | Elaiza imfel zumatuz. | Eliza might have slept.              |
+|----------------------+-----+-----------------------+--------------------------------------|
+| Counterfactual (CFT) | gaq | Elaiza gaq zumatuz.   | Eliza would sleep (but isn't).       |
+|                      |     | Elaiza avgaq zumatuz. | Eliza would be sleeping (but isn't). |
+|                      |     | Elaiza imgaq zumatuz. | Eliza would have slept (but didn't). |
+#+END_EXAMPLE
+
+Verbs may be modified in degree or even reversed by the use of a prefix:
+
+#+BEGIN_EXAMPLE
+|                    | Alpoxe horwmod.   | I remember that time.             |
+| Diminutive (DIM)   | Alpoxe sahorwmod. | I remember that time (a bit).     |
+| Augmentative (AUG) | Alpoxe aghorwmod. | I remember that time (intensely). |
+| Reverse (REV)      | Alpoxe vohorwmod. | I forget that time.               |
+#+END_EXAMPLE
+
+If multiple prefixes are used, DIM/AUG come before REV, i.e. ~savohor*od~, not
+~vosahor*od~.
+
+*** To Be
+
+Perflontus has only one irregular verb, the copula ~az~ "to be". When inflected as
+a main verb, ~az~ is inflected as ~z*~:
+
+#+BEGIN_EXAMPLE
+| z[wm] | z[at] | z[ad]    | z[at][ey] |
+| I am  | It is | They are | It is not |
+#+END_EXAMPLE
+
+It is possible for ~az~ to take an object "infix" in this form, e.g. ~zateyot~ "It
+is not it", but it's unclear whether this is formally correct. A good example of
+this issue is the use of "It is I" vs "It is me" in English, which raises
+questions of whether the things linked by the copula should both have subjective
+case and so forth. In other words, the use of ~az~ in these cases is undecided,
+but the above object-free examples should be enough to get you through a lot of
+use cases.
+
+~az~ is only "to be" in the strictly copular sense, i.e. one that expresses some
+sort of identity relation. Separate verbs are used for other meanings that have
+been folded into the English "to be", e.g. ~z*if~ "to be located", ~j*if~ "to
+exist".
+
+=Az= copies the number inflections from the things it links, as well as the
+negative inflection of adjectives (but not nouns). This mirroring is primarily
+seen for =az= but also occurs for other verbs that express some notion of
+identity, e.g. =etaz= "to become".
+
+#+BEGIN_EXAMPLE
+Didi  ruzeqo  zat.
+Didi  hunger  be-3S.
+Didi is hungry.
+
+Didi  ruzeq[ay]o  zat[ey].
+Didi  hunger-NEG  be-3S-NEG.
+Didi is not hungry.
+
+Didi  ruzeq[ay]o  zat.
+Didi  hunger-NEG  be-3S.
+Didi is a not-hungry (person).
+
+Didi-li  Joxu  ruzeq[w]   z[ab].
+Didi-&   Josh  hunger-DU  be-3dS.
+Didi and Josh are hungry.
+#+END_EXAMPLE
+
+*** Imperatives and Instructions
+
+The imperative voice is indicated by prefixing the active verb with ~'~. The most
+polite forms, as might be used by a manual, inflect the verb as though using the
+passive voice, i.e. omitting the "you" subject. Direct, more "blunt" forms
+address, add the subject pronoun infixes.

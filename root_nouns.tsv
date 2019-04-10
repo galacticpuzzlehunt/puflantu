@@ -1,0 +1,524 @@
+# -*- eval: (local-set-key (kbd "TAB") '(lambda () (interactive) (insert "\t"))) -*-
+# Also contains adjective roots
+
+# Genitive pronoun forms
+rwmo	my/mine
+rwno	our/ours (two possessors)
+rwyo	our/ours
+rizo	your/yours
+rijo	the two of you's
+rixo	y'all's
+rato	his/her/hers/its
+rabo	their/theirs (two possessors)
+rado	their/theirs
+
+rwato	whose (single possessor), interrogative
+rwabo	whose (dual possessor), interrogative
+rwado	whose (plural possessor), interrogative
+
+# Demonstrative pronouns
+ita	this (nom.)
+eta	this (obl.)
+iqa	that (nom.)
+eqa	that (obl.)
+
+ritao	this's
+ritwo	this pair's
+ritwao	this group's
+riqao	that's
+riqwo	that pair's
+riqwao	that group's
+
+# Indefinite pronouns and categories
+orvo	some (an unspecified)
+yemo	none
+# axwa "every, all" moved to closed form to prevent re-pluralization
+veli	any
+hanu	place, location
+bwri	time, moment
+zove	way, method, plan
+dule	reason
+lera	amount, quantity
+vuzi	degree, extent
+
+# Fauna
+hie	person, sentient being
+henhie	parent
+amhie	descendant, child
+hibe	man
+hige	woman
+# sahibe	boy
+# sahige	girl
+henhibe	father
+henhige	mother
+amhibe	son
+amhige	daughter
+qawhi	family
+bikve	djinni/genie
+
+# People what do things
+ogbai	traveller, vagabond
+
+# Food and drink
+locho	food
+riqho	beverage
+ozo	stew, soup
+balorvu	dough
+enxa	water
+gomu	fruit
+hompaliso	butter
+kofi	coffee
+kolarvu	bread
+mafke	oats
+oku	flour
+orbili	jelly
+paliso	milk
+rojgomu	plum
+ruzeqo	hunger
+toreli	cookie
+turakolu	pasta
+twipe	sugar
+wibale	egg
+zalma	salt
+kureni	pie
+jarpagomu	pumpkin
+alwpagomu	strawberry
+sizagomu	raspberry
+geze	juice
+laksalfa	leavening agent, yeast
+dahzelo	saucepan
+twipenxa	syrup
+toka	peanut
+zampaliso	cheese
+rotwipe	chocolate
+wmpigomu	apple
+emkigomu	orange (fruit)
+zobwgomu	peach
+uji	salmon
+honwse	bacon
+atsaro	cinnamon
+hemsaro	nutmeg
+ewsaro	clove
+vesaro	spice
+
+# Structures
+veonxi	building
+jiso	room
+dunse	kitchen
+
+# Machinery/weaponry
+alvi  weapon
+tusvo	bus
+eramovo	ski lift
+ex'opsi	gun
+es'atipu	bullet
+pikfe	bow
+
+# Things
+kworu	clothing
+kude	book
+gifzi	page
+jozrwpo	shirt
+lekwazu	hat
+oca	container, box
+ifaro	jar, vessel
+jalu	strip
+moka	coat
+uxfaplo	bottle
+
+# Places
+veta	nation, state, delineated region
+usonba	land, ground, earth
+ucvablo	kindergarten
+
+# Colors
+ityeri	color
+wre	black
+apo	white
+pamono	red
+emkixa	orange (color)
+amelte	yellow
+colbao	green
+honwze	blue
+emewle	indigo
+siovqi	violet
+swtabxi	clear, transparent
+putqe	chartreuse
+jineri	gold_color
+alveri	silver_color
+
+# Counting, measurement, and appraisal
+wepu	distinguished, magnificent
+oma	good, satisfactory
+oze	adequate
+oyu	bad, inadequate
+agi	big, large, giant
+eyi	small (size)
+ogi	many, much
+uyi	few, little, small (quantity)
+levi	correct
+paxu	wrong
+
+# Descriptors
+izwfu	old
+zohca	young
+erida	fast
+ogwri	frequent, common
+agwri	long (duration)
+uywri	rare, scarce
+eywri	short (duration)
+ovekqu	simple, easy, basic
+dusiko	cold
+lirwpa	hot
+tozqwyo	versatile
+hwomda	delicious
+nousve	viscous
+yaje	thin
+yuqina	wild
+utavi	main, primary, principal
+fevi	side, secondary
+vole	strong, strength
+ine	weak
+dubqa	intentional, deliberate
+ehyo	real, genuine, actual
+
+# Adjectival root of solely, only, just
+itya	sole, lone
+
+# Adjectival root of simply, merely, just
+aqe	mere
+
+# Space
+puflantu	galaxy
+forovo	planet
+qacepo	satellite, spacecraft, spaceship
+zagtivo	asteroid
+
+# Numbers
+saqe	6, half-dozen
+fesaqe	12, dozen
+paisaqe	18
+avsaqe	24
+nesaqe	30
+paiyo	108
+toe	twelve hundred ninety-six
+wdo	seventy-seven hundred seventy-six
+
+# Ordinal numbers
+utaru	first
+feru	second
+pairu	third
+avuru	fourth
+neru	fifth
+saqeru	sixth
+saqtaru	seventh
+saqferu	eighth
+saqpairu	ninth
+saqavuru	tenth
+saqneru	eleventh
+fesaqeru	twelfth
+# Of course these exist for higher numbers but I have gotten bored.
+
+# Multiple numbers
+utale	single
+fele	double
+paile	triple
+
+# Money
+egite	dollar
+uqi	cent, lowest denomination of money
+sagite	coin
+
+# Other math
+gabxo	parabola
+xwrdi	matrix
+velbena	shape
+velvura	polyhedron
+avubena	square
+saqvura	cube
+abvura	tetrahedron
+saqfevura	octahedron
+fesaqvura	dodecahedron
+paisaqfevura	icosahedron
+ogita	multiple, plural
+
+# Positional
+qahe	close, near
+xuso	distant, far
+nafi	counter-clockwise, right-side
+defi	clockwise, left-side
+henqo	interior
+amqo	exterior
+bedqo	surface
+bedfi	top-side, over
+vaxfi	bottom-side, under
+dokfe	between, among
+ura	middle
+podhe	next
+lave	previous
+
+# Directions
+se	North
+ku	South
+pi	East
+no	West
+kuno	southwest
+sepi  northeast
+kupi  southeast
+seno  northwest
+
+# Time
+roqa	day (24 hour period)
+tiroqa	today
+qoyelu	month
+ayego	year
+henroqa	morning
+amroqa	night
+podroqa	tomorrow
+lavroqa	yesterday
+ambwri	late
+henbwri	early
+
+# Months
+qoyeutaru	january
+qoyeferu	february
+qoyepairu	march
+qoyeavuru	april
+qoyeneru	may
+qoyesaqeru	june
+qoyesaqteru	july
+qoyesaqferu	august
+qoyesaqpairu	september
+qoyesaqavuru	october
+qoyesaqneru	november
+qoyefesaqeru	december
+
+# rocks
+atipu	rock
+girotipu	shale
+amipu	talc
+catipu	gypsum
+rupatipu	calcite
+oritipu	fluorite
+sokotipu	apatite
+sizitipu	orthoclase
+wtipu	quartz
+oyitipu	topaz
+rokotipu	corundum
+dotipu	diamond
+
+# Planets
+hen'ogbi	Mercury (INNERMOST!-wanderer)
+olcogbi	Venus (pearl-wanderer)
+lahrogbi	Earth (penguin-wanderer)
+ihrogbi	Mars (blood-planet)
+saqwnogbi	Jupiter (storm-wanderer)
+tavrogbi	Saturn (ring-wanderer)
+ixnogbi	Uranus (tilt-wanderer)
+cwrzogbi	Neptune (ice-wanderer)
+
+# misc exceptional stuff
+azupote	tar
+ejo	lake
+ixi	river
+pahamope	mountain
+bethu	bitter
+xwoxe	springs
+ansa	solution/answer
+podfu	web
+wnwli	wrinkle
+
+# Animals
+ogku	cat
+ukge	dog
+zwmsi	fish
+balri	mouse
+qerwkse	fox
+lahro	penguin
+
+# The Outdoors
+qunxe	sun
+erqoye	moon
+adbole	star
+obwnere	mud
+mainci	summer
+furwne	cloud, fluff
+
+# Body parts
+eqme	leg
+mwnsi	arm
+tama	eye, tablespoon
+vaxsi	butt
+
+# Sentiment
+xoso	happy
+anjo	sad
+remo	funny
+oxpele	excited
+
+# Element
+itedi	metal
+ulime	gas
+enxuli	hydrogen
+cenuli	helium
+twncite	beryllium
+onekuli	neon
+liquli	argon
+jinite	gold
+alvite	silver
+olopuli	krypton
+ruyuli	argon
+setruli	radon
+
+# Fluids
+xwdi	paint
+xoale	smoke
+antuho	glue
+tini	wine
+
+# Misc (including adjectives)
+cuafi	fresh, newly-made, unused
+jano	cup
+guramu	gram
+mitru	meter
+gwnde	rod
+e'a	fire
+rojde	version, edition
+jwntu	pair, dual
+egaska	dazzling, flashing, sparkling
+tixro	heart
+mwbe	random
+tiha	light, luminescence
+pekle	crayon
+noigle	circus
+veskepi	ham
+rali	house
+atimbwri	simultaneous
+xotilu	car
+maglame	mass, loaf, blob
+#????	gone  --  Try to use exist-NEG
+karka	also, additional, too
+talne	chunk
+velqegso	thorough, meticulous
+kirwge	health
+iporo	pot
+zoxura	occasional, sometimes
+ogje	thick (linear dimension)
+ombu	full
+inve	empty
+durema	straight
+ungikpe	flush
+wabu	card
+espuyi	royal, noble
+anuva	high
+yoxuka	long (length)
+olcusa	pearl
+saqwne	storm
+ihro	Earth-blood
+cwrza	ice
+ixnu	tilt
+tavro	ring
+twipibne	dessert
+omeze	exemplar, perfect
+dwonga	heavy
+hise	light, weightless
+jaonga	dense
+jufzove	recipe
+pahi	flat
+karoda	sum, total
+tahlo	pan
+jerada	vigor
+tolorca	selective
+eyosfe	tongue
+pexa	adult
+bilbi	whisk
+amwlo	pound (unit)
+sotwma	layer
+zamgomu	tomato
+rai	other
+utarai	another
+urarai	each other
+qoqra	version, edition
+exuri	soft
+kirake	crisp (texture)
+rwtxo	circle, round
+rote	dish, plate
+zezi	bubble
+vomfe	sink (furniture)
+zovalu	street
+loba	spot
+evave	mirror
+dizpa	key
+taklo	door
+enxombu	wet
+ofrwdu	towel
+yojre	floor
+tixroca	dream
+ixopfe	wheel
+nico	open
+mezo	available
+pagepu	luxury
+gica	shoe
+satipu	pebble
+janari	heaven
+hojoge	parallel
+pevko	ray
+hwvahsu	stable
+avroxe	surprise, twist, shock
+casute	chaste
+wirdo	freak
+okame	wire
+ahrodi	scar
+ulime	gas
+umeriku	America
+elmi	town
+talke	peace
+coce	war
+timeya	leather
+budje	president
+okame	wire
+ahrodi	scar
+ulime	gas
+calu	true, truth
+ywri	false, lie
+natho	word
+natmwne	lexicon
+sanato	letter
+balotno	game
+taftafe	game point
+xekri	trivial, obvious
+erge	loud
+xaxu	quiet
+zikpe	danger
+namehe	fun
+mwla	money
+denaqva	row
+bevaxva	column
+vaxru	last
+vere	corner
+
+# astrological signs
+wegso	aries
+olijo	taurus
+regdo	gemini
+dikiso	cancer
+semzo	leo
+eyuvo	virgo
+amlo	libra
+reqwco	scorpio
+cugaco	sagittarius
+himlo	capricorn
+idivo	aquarius
+ipmeto	pisces
+
+
+# Here are some words I like the sound of even if I don't have a use for them yet.
+# (These are generated by script RNG, which is less likely to include my personal
+#  biases about which phones are "fun".)
+
+uja	???
+mid'o	???
+hepxo	???
+noifrue	???
+uce	???
+izba	???

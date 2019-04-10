@@ -1,0 +1,237 @@
+* Dependent Clauses (STUB)
+
+A dependent clause is indicated by the attachment of the ~-ka~ suffix to its main
+verb. ~-kas~ is used in the case where the dependent clause modifies a verb. A
+reasonable English gloss for =-ka= is "that", but we'll see that many dependent
+clauses use the =-ka= construction regardless of what their English translation
+would use for the linking word. (One way to think about this is that many
+dependent clauses in English can be rephrased to use "that" as their relative
+pronoun, even if the result is more verbose.)
+
+Dependent clauses can require the use of the relative personal pronoun, whose
+forms are as follows:
+
+The relative pronoun indicates the role that "that" within the clause if the
+clause were rephrased as a standalone sentence. Further examples below will help
+illustrate how this is decided.
+
+*** That/What/Which Clauses and Participial Phrases
+
+Clauses and phrases whose relative pronoun is "that", "who", "which", or "what"
+use the relative personal pronoun, whose forms are as follows:
+
+#+BEGIN_EXAMPLE
+|     | Singular | Dual    | Plural          |
+|-----+----------+---------+-----------------|
+| REL | al / ol  | ar / or | ary(u) / ory(u) |
+#+END_EXAMPLE
+
+(Like other pronouns, these may appear as standalone words in addition to being
+used as verbal infixes. However, since =ary= and =ory= are invalid words due to
+syllable patterns, they take on an extra vowel when appearing alone.)
+
+The relative pronoun inflects like other person pronouns with respect to its
+role in subordinate clause.
+
+#+BEGIN_EXAMPLE
+Im   wlwm[ol]oc  -ka   um  im   somatun.
+PST  eat-1S-RO   -DEP  1O  PST  please-3S.
+What I ate pleased me.
+
+Av   c[ary]ub   -ka  gwmeyir.
+IMP  speak-RpS  DEP  know-1S-NEG
+I don't know who-all is speaking.
+#+END_EXAMPLE
+
+Not all noun clauses actually use their relative pronoun. For example, in some
+English "that" clauses, the "that" serves no other purpose other than to mark
+that a subordinate clause exists. (For example, "that a subordinate clause
+exists" in the previous sentence.) In these cases a relative pronoun is not used
+at all; the indication of a subordinate clause using =-ka= suffices.
+
+#+BEGIN_EXAMPLE
+Im   wlwmoc  -ka   um  im   somatun.
+PST  eat-1S  -DEP  1O  PST  please-3S.
+That I ate pleased me.  (i.e. "The fact that I ate...")
+
+Im   wlwm[ory]oc  -ka   um  im   somatun.
+PST  eat-1S-RpO   -DEP  1O  PST  please-3S.
+The things that I ate pleased me.
+
+Imor     c[ad]ub    -ka   im   gwmeyir.
+PST-IMP  speak-3pS  -DEP  PST  know-1S-NEG.
+I didn't know that they had spoken.
+
+Imor     c[ary]ub   -ka   im   gwmeyir.
+PST-IMP  speak-RpS  -DEP  PST  know-1S-NEG.
+I didn't know the people that had spoken.
+#+END_EXAMPLE
+
+Note that in the second example, the use of the infixed relative pronoun =ory=
+carries extra information, namely that the object of "ate" is plural. In English
+the introduction of extra words "The things" is necessary to translate the
+sentence. Going in the other direction, it is important to omit words of that
+type, as Perflontus' noun-adjective duality presumes "things" as the noun
+whenever an adjective-like thing is used with no apparent modification target.
+
+#+BEGIN_EXAMPLE
+[Honwzwe  oryu  im   wlwmoc  -ka]   um  im   somatun.
+[blue-PL  RpO   PST  eat-1S  -DEP]  1O  PST  please-3S.
+[The blue things that I ate] pleased me.
+          ^ here the pronoun is used to indicate the role of the things
+            described by the subordinate clause
+
+[Im   wlwmoryoc   -ka]   honwzwe  um  im   somatun.
+[PST  eat-1S-RpO  -DEP]  blue-PL  1O  PST  please-3S.
+The [me-eaten] blue things pleased me.
+               ^ here 'honwzwe' suffices on its own for 'blue things'
+
+[Honwzwe  im   wlwmoc  -ka]   um  im   somatun.
+[blue-PL  PST  eat-1S  -DEP]  1O  PST  please-3S.
+[That I ate the blue things] pleased me.
+
+*[Im   wlwmoc   -ka]   honwzwe  um  im   somatun.    -- Incorrect
+*[PST  eat-1S   -DEP]  blue-PL  1O  PST  please-3S.
+*The [that I ate] blue things pleased me.
+#+END_EXAMPLE
+
+Participles in general are implemented as dependent clauses, with the exception
+of the present participle of an active verb, for which the [[Gerund Case ~-a~][gerund case]] may be
+used. Generally these use a passive voice construction inside a dependent
+clause, as follows:
+
+#+BEGIN_EXAMPLE
+Enxura   lirwmwb.
+water-R  boil-1S
+I boil the water.
+
+Enxura   lirotwb.
+water-R  boil-3O
+The water boils.
+
+Lirotwb-ka   enxura   rwmiq.
+boil-3O-DEP  water-R  drink-1S
+I drink the boiling water. (I drink the water that boils / is being boiled.)
+       ^ note that the R noun class is not reflected in the clause
+
+Im   lirotwb-ka   enxura   rwmiq.
+PST  boil-3O-DEP  water-R  drink-1S.
+I drink the boiled water. (I drink the water that was boiled.)
+#+END_EXAMPLE
+
+*** Location and Timing - When, Where
+
+Clauses with additional connotations express them with an =al-= word, placed at
+the beginning of the clause. These words are defined in [[Pronouns, Part 3 -- Indefinite Pronouns and Other Stand-Ins (STUB)][Indefinite Pronouns and
+Other Stand-Ins]]; the relevant ones are:
+
+| that-place ("where")            | alhan |
+| that-time ("when")              | albwr |
+
+Various relationships between clauses can be described using these words, along
+with locative descriptors.
+
+#+BEGIN_EXAMPLE
+Alhan       xoale  jatif     -ka,  e'a   jatif.
+that-place  smoke  exist-3S  -DEP  fire  exist-3S
+Where there is smoke, there is fire.
+#+END_EXAMPLE
+
+Perflontus uses an inner-outer spatial metaphor for expressing time; things that
+happened before the present are inside it, while things that happen afterward
+are outside it.
+
+*** Causation and Intent - How, Why
+
+It is common for subordinate clauses and phrases to express some kind of
+causality or intent. Much like the spatial/temporal clauses, causative clauses
+are introduced by one of the following adverbs:
+
+| this-method | that-method | this-reason | that-reason |
+| tizov       | alzov       | tidul       | aldul       |
+
+The distinction between -method and -reason is somewhat blurred, but the general
+idea is that -method should be used when the clause refers to a mechanical cause
+for something, whereas -reason should be used for more abstract causes. It is
+expected that certain situations could be interpreted in either way, and it is
+up to the speaker's discretion to choose one.
+
+The choice between this- and that- depends on whether the causing event is in
+the subordinate clause, or in the main clause. To put it another way, if a this-
+adverb is used, the direction of causality or inference flows from the
+subordinate clause to the main clause. If a that- adverb is used, the opposite
+is true.
+
+#+BEGIN_EXAMPLE
+E'a   tidul        xoale  jatif      -kas      jatif.
+fire  this-reason  smoke  exists-3S  -DEP-ADV  exists-3S
+If there is smoke, there is fire.
+
+Xoale  tizov        e'a   jatif      -kas      jatif.
+smoke  this-method  fire  exists-3S  -DEP-ADV  exists-3S
+If there is fire, there is smoke.
+#+END_EXAMPLE
+
+In both of the above examples, a this- adverb is used because the logical
+direction of events is from the dependent clause to the main clause. In the
+first example, the nature of the logic is by inference, so a -reason adverb is
+used. In the second example, there is a concrete, mechanical cause in play, so a
+-method adverb is used.
+
+#+BEGIN_EXAMPLE
+E'a   alzov        xoale  jatif      -kas      jatif.
+fire  that-method  smoke  exists-3S  -DEP-ADV  exists-3S
+There is fire, therefore there is smoke.
+
+Xoale  aldul        e'a   jatif      -kas      jatif.
+smoke  that-reason  fire  exists-3S  -DEP-ADV  exists-3S
+There is smoke, therefore there is fire.
+#+END_EXAMPLE
+
+Each of the original examples can be inverted simply by changing the adverb
+used. Now in the first example, the fire in the main clause is causing the smoke
+in the dependent clause, so =alzov= is used to indicate the direction and that
+there is a mechanical reason behind it. Similarly, in the second case, the
+existence of the fire in the dependent clause is being inferred from the smoke
+in the main clause, so =aldul= is used to indicate the direction and that the
+reasoning is abstract.
+
+*** Comparative Clauses (STUB)
+
+Comparisons are always expanded to a full clause. Instead of =-ka= the
+subordinate verb takes the particle =-sos=, and the use of the relative pronoun
+in the clause indicates the role of the thing being compared. The inflection of
+the subordinate verb should reflect the things being changed in the comparison,
+rather than always including the subject inflection. In particular, if only the
+verb is being used, then no pronoun infixes appear.
+
+#+BEGIN_EXAMPLE
+Alisu  [Bab  zat-sos]  wepu'fi    zat.
+Alice  [Bob  be-than]  great-CMP  be-3S.
+Alice is greater than Bob is.
+
+Bab  [kofuri    ratotiq-sos     ]  oguri'fi    enxura   ratiq.
+Bob  [coffee-R  drink-3S-3O-than]  much-R-CMP  water-R  drink-3S.
+Bob  drinks more water than he drinks coffee.
+
+Rate    eyotuqa  [rwne    rulfatob-sos       ]  ogi'fi    zalma  rulfatob.
+3S-GEN  recipe   [1S-GEN  incorporate-3S-than]  more-CMP  salt   incorporate-3S
+His recipe uses more salt than mine uses.
+
+[Enxura   rwmotiq-sos     ]  ogwe'fi      torewe     wlwmoc.
+[water-R  drink-1S-3O-than]  more-PL-CMP  cookie-PL  eat-1S.
+I ate more cookies than [I] drank water.
+
+[Wlatoc-sos]  ogwe'fi      torewe     wlwmoc.
+[eat-3S    ]  more-PL-CMP  cookie-PL  eat-1S.
+I ate more cookies than he ate.
+
+At sag im zalatotov-sos ogi' sagwho im satag.
+She gave more gifts than she was required to.
+
+At im solatodov-sos ogi' sagwho im satag.
+She gave more gifts than were needed.
+
+At sagwho zalatov-sos xogi' im satag.
+She gave gifts more often than required.
+#+END_EXAMPLE

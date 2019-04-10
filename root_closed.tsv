@@ -1,0 +1,205 @@
+# -*- eval: (local-set-key (kbd "TAB") '(lambda () (interactive) (insert "\t"))) -*-
+
+# Pronouns
+
+# These technically violate the rule that nouns should have two syllables and end in a vowel.
+# They're isolated here so that the lexicon crawler doesn't try to inflect them.
+wm	I
+um	me
+wn	we-dual
+un	us-dual
+wy	we
+uy	us
+iz	you (nom.)
+ez	you (obl.)
+ij	you two (nom.)
+ej	you two (obl.)
+ix	y'all (nom.)
+ex	y'all (obl.)
+at	he/she/it
+ot	him/her/it
+ab	they-dual
+ob	them-dual
+ad	they
+od	them
+
+wat	who/what/which subject, interrogative
+wot	who/what/which object, interrogative
+wab	what/which two subjects, interrogative
+wob	what/which two objects, interrogative
+wad	what/which subjects, interrogative
+wod	what/which objects, interrogative
+
+# Particles, conjunctions, prepositions
+
+fw	to, toward
+fws	to (adv)
+ti	at
+tis	at (adv)
+cw	away from
+cws	away from (adv)
+li	additive particle (noun-"and")
+lis	additive particle (verb-"and")
+wli	with (accompanied by or while possessing)
+wlis	with (accompanied by or while possessing)
+di	but, yet (contrastive and)
+dis	but, yet (contrastive and)
+ni	then (sequential and)
+nis	then (sequential and)
+fo	exclusive or
+fos	exclusive or
+vo	inclusive or
+vos	inclusive or
+vak	by (agent of passive verb)
+ro	genitive particle ("'s")
+na	interrogative particle ("?")
+eg	resulting in
+ziyu	for recipient (adj.)
+ziy	for recipient (adv.)
+zoan	through
+
+fel	hypothetical
+gaq	counterfactual
+av	imperfective
+avfel	imperfective hypothetical
+avgaq	imperfective counterfactual
+os	perfective
+osfel	perfective hypothetical
+osgaq	perfective counterfactual
+im	past
+imfel	past hypothetical
+imgaq	past counterfactual
+imav	past imperfective
+imavfel	past imperfective hypothetical
+imavgaq	past imperfective counterfactual
+imos	past perfective
+imosfel	past perfective hypothetical
+imosgaq	past perfective counterfactual
+et	future
+etfel	future hypothetical
+etgaq	future counterfactual
+etav	future imperfective
+etavfel	future imperfective hypothetical
+etavgaq	future imperfective counterfactual
+etos	future perfective
+etosfel	future perfective hypothetical
+etosgaq	future perfective counterfactual
+
+
+# Useful words
+zo	yes
+xa	no
+zoxa	maybe
+yoxa	and so forth, etc.
+kardis	even so, however
+
+# Time
+tibwr	now
+albwr	then, at that time
+orbwr	sometime
+yebwr	never, at no time
+axwbwr	always
+velbwr	anytime, whenever
+wbwr	when?
+
+# Indefinite adverbs and similar
+tihan	here
+alhan	there
+orhan	somewhere
+yehan	nowhere
+axwhan	everywhere
+velhan	anywhere, wherever
+whan	where?
+tizov	this way, thus
+alzov	that way, if
+orzov	somehow, indefinite way
+yezov	never, in no manner
+velzov	however, arbitrary way
+wzov	how, by what means
+tidul	this reason, therefore
+aldul	that reason, because
+ordul	indefinite reason
+yedul	never, for no reason
+veldul	whatever reason
+wdul	why, for what reason
+tivuz	to this degree
+alvuz	to that degree
+orvuz	to some degree
+velvuz	to any degree
+wvuz	to what degree
+
+# These are technically noun/adjectives but they always take the plural form
+axwe	every, all
+axwaye	not every
+tilerwe	this much
+alerwe	that much
+orlerwe	unspecified amount
+velerwe	arbitrary amount
+wlerwe	how much?
+
+# Numbers
+ri	0
+uta	1
+fe	2
+pai	3
+avu	4
+ne	5
+saqta	7
+saqfe	8
+saqpai	9
+saqavu	10
+saqne	11
+fesaqta	13
+fesaqfe	14
+fesaqpai	15
+fesaqavu	16
+fesaqne	17
+paisaqta	19
+paisaqfe	20
+paisaqpai	21
+paisaqavu	22
+paisaqne	23
+avsaqta	25
+avsaqfe	26
+avsaqpai	27
+avsaqavu	28
+avsaqne	29
+nesaqta	31
+nesaqfe	32
+nesaqpai	33
+nesaqavu	34
+nesaqne	35
+utayo	36
+feyo	72
+avuyo	144
+neyo	180
+utasa	216
+fesa	432
+paisa	648
+avusa	864
+nesa	1080
+utatoe	1296
+fetoe	2592
+paitoe	3888
+avutoe	5184
+netoe	6480
+utawdo	7776
+fewdo	15552
+paiwdo	23328
+avuwdo	31104
+newdo	38880
+
+# Interjections et al
+'bovipa	hello
+w'ne	yikes
+o're	oh/wow
+a'mi	hey
+ka'pa	yes (exultory)
+
+# These numbers should be normal nouns but are monosyllablic
+yo	thirty-six
+yw	thirty-sixes
+ywe	thirty-sixes
+sa	two hundred sixteen
+sw	two hundred sixteens
+swe	two hundred sixteens

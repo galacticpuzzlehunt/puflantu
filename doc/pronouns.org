@@ -1,0 +1,137 @@
+*** Personal Pronouns
+
+Personal pronouns may be used on their own but are also incorporated frequently
+into verbal inflection. They have the following characteristics:
+
+  * First/second/third person designations.
+  * Subject/object designations. Formally the subject form is the nominative
+    case, while the object form covers the oblique case, a.k.a. "everything
+    else". (This is the same casing system English uses.)
+  * Singular/dual/plural designations. The dual number refers specifically to
+    two of a thing; thus separate pronouns are used to refer to "you, alone",
+    "the two of you", and "y'all".
+  * No gender or sentience distinctions, including for third person personals.
+    That is, the same word is used for he, she, and it.
+
+|          | Singular | Dual      | Plural        |
+|          | (~-S/-O~)  | (~-dS/-dO~) | (~-pS/-pO~)     |
+|----------+----------+-----------+---------------|
+| 1P (~1-~)  | wm / um  | wn / un   | wy / uy       |
+| 2P (~2-~)  | iz / ez  | ij / ej   | ix / ex       |
+| 3P (~3-~)  | at / ot  | ab / ob   | ad / od       |
+| REL (~R-~) | al / ol  | an / on   | ary(u)/ory(u) |
+
+Relative pronouns are only used in [[file:subclauses.org][dependent clauses]]. Note that when the
+relative plurals appear on their own they are written ~aryu~ and ~oryu~ to comply
+with correct syllable formation; however, when they are infixed, they are simply
+~-ary-~ and ~-ory-~.
+
+For purposes of memorization, note that all the pronouns are a vowel and a
+consonant. (This is the main exception to the rule that noun-like things end in
+vowels.) Furthermore the vowel does not depend at all on the number, and the
+consonant does not depend at all on the case.
+
+The possessive form of personal pronouns is formed by infixing the subject form
+of the pronoun into ~r*o~.
+
+|         | Singular (~-G~) | Dual (~-dG~) | Plural (~-pG~) |
+|---------+---------------+------------+--------------|
+| 1P (~1-~) | rwmo          | rwno       | rwyo         |
+| 2P (~2-~) | rizo          | rijo       | rixo         |
+| 3P (~3-~) | rato          | rabo       | rado         |
+
+Note that the choice of infixed pronoun indicates the number of /possessors/, and
+standard [[file:nouns.org#number][pluralization]] still applies to indicate the number of /possessed items/.
+In addition, each word functions equally as both noun and adjective; for
+example, ~rwmo~ is used for both "my" and "mine" and disambiguation is up to the
+listener.
+
+This possessive infixing pattern is used for some, but not all, other pronouns,
+where explicitly noted below.
+
+*** Determinatives and Demonstratives
+
+"This" and "that" are demonstrative pronouns that differ from regular nouns
+primarily in that they have special handling for their objective and possessive
+cases that regular nouns don't. They are otherwise handled like regular nouns,
+and in particular pluralized like them. These rules will be discussed later; for
+now, the following table should suffice:
+
+#+BEGIN_EXAMPLE
+|      | Singular  | Dual      | Plural      |
+|------+-----------+-----------+-------------|
+| This | ita / eta | itw / etw | itwe / etwe |
+| That | iqa / eqa | iqw / eqw | iqwe / eqwe |
+#+END_EXAMPLE
+
+Like most Perflontus nouns (again, to be covered more thoroughly later), ~ita~ et
+al. may also be used as demonstrative adjectives.
+
+#+BEGIN_EXAMPLE
+Demiunu  etwe       torelwe  et   wlatoc.
+Damien   these-OBJ  cookies  FUT  eat-3S.
+Damien will eat these cookies.
+
+Demiunu  etwe       et   wlatoc.
+Damien   these-OBJ  FUT  eat-3S.
+Damien will eat these.
+
+Ita       somatotun.
+This-SUB  please-3S-3O.
+This pleases him.
+#+END_EXAMPLE
+
+There is no direct equivalent for the definite article "the". Depending on the
+context it is correct to either omit any qualifier at all or to use "this" or
+"that" as appropriate instead.
+
+Similarly there is no directly equivalent to the indefinite article "a(n)". When
+it is necessary to refer to some indefinite item ~ke~ (literally "one") is used
+instead.
+
+#+BEGIN_EXAMPLE
+Tusvo  yipox  et   capatil.
+Bus    soon   FUT  arrive-3S.
+(The) bus will arrive soon.
+
+Ke   tusvo  yipox  et   capatil.
+One  bus    soon   FUT  arrive-3S.
+A bus will arrive soon.
+
+Iqa   ke   tusvo  yipox  et   capatil.
+That  one  bus    soon   FUT  arrive-3S.
+The 1 bus will arrive soon.
+#+END_EXAMPLE
+
+*** Indefinite Pronouns et al.
+
+*State:* Stub
+
+|               | this    | that    | some    | no      | every  | any     | interr.     |
+| person/thing  | ita/eta | iqa/eqa | orvo    | yemo    | axwe   | veli    | wat/.../wod |
+| place ~hanu~    | tihan   | alhan   | orhan   | yehan   | axwhan | velhan  | whan        |
+| time ~bwri~     | tibwr   | albwr   | orbwr   | yebwr   | axwbwr | velbwr  | wbwr        |
+| way ~zove~      | tizov   | alzov   | orzov   | yezov   |        | velzov  | wzov        |
+| reason ~dule~   | tidul   | aldul   | ordul   | yedul   |        | veldul  | wdul        |
+| quantity ~lera~ | tilerwe | alerwe  | orlerwe | yelerwe |        | velerwe | wlerwe      |
+| degree ~vuzi~   | tivuz   | alvuz   | orvuz   | yevuz   |        | velvuz  | wvuz        |
+
+***** Notes
+
+  * ~Axwe~ "every" is always plural in Perflontus; there is not singular
+    inflection. It also imposes the plural inflection on anything in modifies.
+    This is counter to many languages where "every" is frequently singular, e.g.
+    "everything", "cada vez", "tout".
+  * For similar reasons the same is true of all the quantity forms.
+  * The "this" and "that" forms of most things do not take a subject/object
+    inflection.
+  * The various forms referring to place, time, way, and reason are
+    systematically formed from their nouns, but also drop the final vowel in
+    their converstion to adverbs.
+  * ~tizov~ "this-way" and ~tidul~ "this-reason" are both reasonably glossed as
+    "if", but ~tizov~ is used in cases where the if-clause indicates a mechanical
+    cause for something, whereas ~tidul~ indicates more abstract causality.
+    Another way to put it, which also applies to ~alzov~ and ~aldul~ in the opposite
+    direction, is that ~*zov~ clauses are answers to questions better phrased as
+    "how", while ~*dul~ clauses are answers to questions better phrased as "why".
+    A fuller treatment of these particular words is in [[file:clauses.org#causation-and-intent---how-why][Causation and Intent Clauses]].
